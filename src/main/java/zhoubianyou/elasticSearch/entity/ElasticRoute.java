@@ -25,6 +25,8 @@ public class ElasticRoute {
 	private List<Map<String,Object>> tab;
     private String img_list;
     private String location;
+    
+    private List<String> suggest_tab;
     public String getRoute_id() {
 		return route_id;
 	}
@@ -103,6 +105,12 @@ public class ElasticRoute {
 	}
 	public void setLocation(String location) {
 		this.location = location;
+	}
+	public List<String> getSuggest_tab() {
+		return suggest_tab;
+	}
+	public void setSuggest_tab(List<String> suggest_tab) {
+		this.suggest_tab = suggest_tab;
 	}
 
 
